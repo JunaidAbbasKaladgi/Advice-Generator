@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advice Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(218, 23%, 16%);
+    font-family: Manrope;
+    
+}
+
+.container {
+    height: 155px;
+    width: 310px;
+    background-color: hsla(216, 19%, 38%, 0.421);
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h3 {
+    margin: 0;
+    color: lightgreen;
+    font-size: 12px;
+}
+
+p {
+    margin: 10px 0 0;
+    color: #f7f7f7;
+    font-size: 20px;
+}
+.dice{
+    /* margin-top: 50px; */
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 7em;
+    margin-left: 8em;
+    margin-top: 25px;
+}
+.circle:hover{
+    background-color: rgb(16, 232, 160);
+    box-shadow:0px 0px 10px rgb(16, 232, 160) ;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+           <h3>ADVICE #117</h3>
+           <p id="advice-text"> <strong> "It is easy to sit up and take notice, what's difficult is getting up and taking action"</strong></p>
+           <br>
+            <img style="width: 18em;justify-content: center;align-items: center;" src="pattern-divider-desktop.svg" alt="">
+        <div id="dice-button" class="circle">
+           <img class="dice" src="icon-dice.svg" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
